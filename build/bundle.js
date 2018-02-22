@@ -112,9 +112,9 @@ var _mainAppController = __webpack_require__(4);
 
 var _mainAppController2 = _interopRequireDefault(_mainAppController);
 
-var _secondaryController = __webpack_require__(5);
+var _secondController = __webpack_require__(5);
 
-var _secondaryController2 = _interopRequireDefault(_secondaryController);
+var _secondController2 = _interopRequireDefault(_secondController);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -34522,8 +34522,8 @@ var _appModule2 = _interopRequireDefault(_appModule);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = _appModule2.default.controller('SecondaryController', ['$scope', function ($scope) {
-	console.log("Secondary Controller created!");
+exports.default = _appModule2.default.controller('SecondController', ['$scope', function ($scope) {
+	console.log("Second Controller created!");
 	var self = this;
 	self.myModel = "Hello world from the other controller!";
 }]);
