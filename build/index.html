@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body ng-app="myApp">
+	<div class="container" ng-controller="MainController as mCtrl">
+		<input type="text" name="input" ng-model="mCtrl.myModel">
+		{{ mCtrl.myModel }}
+	</div>
+	<div class="container" ng-controller="SecondaryController as sCtrl">
+		<input type="text" name="input" ng-model="sCtrl.myModel">
+		{{ sCtrl.myModel }}
+	</div>
+<script type="text/javascript" src="bundle.js?5ae0378e8a76d9b59f40"></script></body>
+</html>
