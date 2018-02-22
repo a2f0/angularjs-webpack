@@ -1,3 +1,4 @@
-import mainController from './main-app/main-app.controller.js';
-import secondaryController from './second-app/second.controller.js';
+import './main-app/main-app.controller.js';
+import './second-app/second.controller.js';
+import './services/app.service.js';
 
